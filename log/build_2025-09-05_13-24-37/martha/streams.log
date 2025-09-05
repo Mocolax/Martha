@@ -1,0 +1,27 @@
+[1.272s] Invoking command in '/home/mocolax/ros2_ws/src/martha': PYTHONPATH=/home/mocolax/ros2_ws/build/martha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/martha build --build-base /home/mocolax/ros2_ws/build/martha/build install --record /home/mocolax/ros2_ws/build/martha/install.log --single-version-externally-managed install_data
+[1.787s] running egg_info
+[1.788s] writing ../../build/martha/martha.egg-info/PKG-INFO
+[1.788s] writing dependency_links to ../../build/martha/martha.egg-info/dependency_links.txt
+[1.788s] writing entry points to ../../build/martha/martha.egg-info/entry_points.txt
+[1.789s] writing requirements to ../../build/martha/martha.egg-info/requires.txt
+[1.789s] writing top-level names to ../../build/martha/martha.egg-info/top_level.txt
+[1.792s] reading manifest file '../../build/martha/martha.egg-info/SOURCES.txt'
+[1.793s] writing manifest file '../../build/martha/martha.egg-info/SOURCES.txt'
+[1.794s] running build
+[1.794s] running build_py
+[1.794s] copying martha/test.py -> /home/mocolax/ros2_ws/build/martha/build/lib/martha
+[1.794s] copying martha/keyboardRead.py -> /home/mocolax/ros2_ws/build/martha/build/lib/martha
+[1.794s] running install
+[1.795s] running install_lib
+[1.796s] copying /home/mocolax/ros2_ws/build/martha/build/lib/martha/test.py -> /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha
+[1.797s] copying /home/mocolax/ros2_ws/build/martha/build/lib/martha/keyboardRead.py -> /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha
+[1.797s] byte-compiling /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha/test.py to test.cpython-310.pyc
+[1.798s] byte-compiling /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha/keyboardRead.py to keyboardRead.cpython-310.pyc
+[1.799s] running install_data
+[1.799s] running install_egg_info
+[1.802s] removing '/home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha-0.0.0-py3.10.egg-info' (and everything under it)
+[1.803s] Copying ../../build/martha/martha.egg-info to /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha-0.0.0-py3.10.egg-info
+[1.804s] running install_scripts
+[1.843s] Installing test script to /home/mocolax/ros2_ws/install/martha/lib/martha
+[1.843s] writing list of installed files to '/home/mocolax/ros2_ws/build/martha/install.log'
+[1.893s] Invoked command in '/home/mocolax/ros2_ws/src/martha' returned '0': PYTHONPATH=/home/mocolax/ros2_ws/build/martha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/martha build --build-base /home/mocolax/ros2_ws/build/martha/build install --record /home/mocolax/ros2_ws/build/martha/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+source;share/martha/hook/pythonpath.ps1
+source;share/martha/hook/pythonpath.dsv
+source;share/martha/hook/pythonpath.sh
+source;share/martha/hook/ament_prefix_path.ps1
+source;share/martha/hook/ament_prefix_path.dsv
+source;share/martha/hook/ament_prefix_path.sh

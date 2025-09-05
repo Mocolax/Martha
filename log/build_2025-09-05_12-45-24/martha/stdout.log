@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/martha/martha.egg-info/PKG-INFO
+writing dependency_links to ../../build/martha/martha.egg-info/dependency_links.txt
+writing entry points to ../../build/martha/martha.egg-info/entry_points.txt
+writing requirements to ../../build/martha/martha.egg-info/requires.txt
+writing top-level names to ../../build/martha/martha.egg-info/top_level.txt
+reading manifest file '../../build/martha/martha.egg-info/SOURCES.txt'
+writing manifest file '../../build/martha/martha.egg-info/SOURCES.txt'
+running build
+running build_py
+copying martha/test.py -> /home/mocolax/ros2_ws/build/martha/build/lib/martha
+running install
+running install_lib
+copying /home/mocolax/ros2_ws/build/martha/build/lib/martha/test.py -> /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha
+byte-compiling /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha/test.py to test.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/martha/martha.egg-info to /home/mocolax/ros2_ws/install/martha/lib/python3.10/site-packages/martha-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/mocolax/ros2_ws/install/martha/lib/martha
+writing list of installed files to '/home/mocolax/ros2_ws/build/martha/install.log'
