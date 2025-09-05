@@ -4,6 +4,7 @@ import struct
 import rclpy
 from rclpy.node import Node
 
+#julian puto
 
 class movimiento(Node):
 	def __init__(self):
