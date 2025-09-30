@@ -65,7 +65,7 @@ class movimiento(Node):
 		vy  = vy_read
 		vth = wz_read
 
-		print("Vx = ", vx)
+		print("Vx = ", vx, "Vy = ", vy, "Wz = ", vth)
      
 def main(args=None):
 	rclpy.init(args=args)
