@@ -11,11 +11,12 @@ Sigue la guía oficial de instalación de ROS 2 Humble:
 🔗 Documentación oficial de ROS 2 Humble
 Verificación de la Instalación
 
-Después de instalar ROS 2 Humble, verifica que esté correctamente configurado:
+Después de instalar ROS 2 Humble, verifica que esté correctamente configurado, añade al final del .bashrc:
 bash
-
+sudo nano ~/.bashrc
 source /opt/ros/humble/setup.bash
-ros2 --version
+source ~/ros2_ws/install/setup.bash
+
 
 Instalación del Proyecto Martha
 Descarga del Repositorio
