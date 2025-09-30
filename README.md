@@ -1,4 +1,4 @@
-Proyecto Martha
+# Proyecto Martha
 Requisitos Previos
 Sistema Operativo
 
@@ -28,16 +28,6 @@ cd ~/ros2_ws/src
 git clone https://github.com/Mocolax/martha.git
 cd martha
 
-Instalación de Dependencias
-
-Una vez dentro del directorio del proyecto, instala los paquetes necesarios:
-bash
-
-# Actualizar lista de paquetes
-sudo apt update
-
-# Instalar dependencias (ajusta según tu proyecto)
-rosdep install -i --from-path src --rosdistro humble -y
 
 Configuración del Entorno
 
@@ -59,7 +49,7 @@ Para ejecutar el proyecto Martha:
 bash
 
 # Ejecutar Martha (ajusta el nombre del paquete y launch file)
-ros2 launch martha martha_launch.py
+ros2 launch martha martha_setup.launch.py
 
 # Alternativamente, si quieres ejecutar un nodo específico:
 # ros2 run martha martha_node
